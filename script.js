@@ -184,7 +184,11 @@ function closeBookingModal() {
 
 function handleFormSubmit(e) {
   e.preventDefault();
-  alert(`Thank you! Your request for "${formEventName.value}" has been registered.`);
+
+  alert(
+    "Demo only: No booking has been saved or submitted."
+  );
+
   modal.close();
 }
 
